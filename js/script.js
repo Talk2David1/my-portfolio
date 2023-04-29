@@ -6,3 +6,4 @@ hamburger.addEventListener("click", function () {
     this.classList.toggle("click");
     navList.classList.toggle("open");
     });
+
