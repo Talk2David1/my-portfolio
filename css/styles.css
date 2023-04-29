@@ -32,7 +32,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .logo i {
@@ -225,9 +225,7 @@ span {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 
-  .card p {
-  /* font-size: 16px; */
-  
+  .card p {  
   color: #fff;
   font-size: 1.2em;
   margin: 0;
@@ -235,6 +233,100 @@ span {
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+/* MY SKILLS SECTION */
+
+.skills{    
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)), url(../img/background.JPG);
+    position: relative;
+    background-position: center;    
+}
+
+.skills h1{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.grid{    
+    grid-template-columns: auto auto;    
+    color: #eee;
+    border-radius: 30px;
+    box-shadow:
+        -10px -10px 20px rgba(255, 255, 255, 0.05),
+        10px 10px 20px rgba(0, 0, 0, 0.5);    
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    text-align: center;
+}
+
+.grid p{
+    color: #2ecc71;
+}
+
+/* my works section */
+.my-works{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)), url(../img/background.JPG);
+    position: relative;
+    background-position: center; 
+    color: #eee;
+justify-content: space-between;
+display: flex;
+padding: 80px;
+
+}
+
+.my-works h4{
+    margin-top: 20px;
+
+}
+
+.work-card{
+width: 250px;
+height: px;
+padding: 10px;
+margin-top: 20px;
+text-align: left;
+border-radius: 15px;
+background-color: rgba(11, 11, 27, 0.473);
+transition: all 0.2s ease-in-out;
+margin-left: 20px;
+cursor: pointer;
+}
+
+.work-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.work-card img{
+border-radius: 10px;
+width: 200px;
+height: 250px;
+}
+
+button{
+   color: #2ecc71; 
+   padding: 6px;
+   border-radius: 10px;
+   border: none;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+button:hover{
+    color: #eee;
+    background-color: #2ecc71;
+    padding: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
 
 @media screen and (max-width: 930px) {
     nav .ham {
