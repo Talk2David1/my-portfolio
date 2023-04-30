@@ -338,28 +338,26 @@ button:hover {
 
 /* contact me section */
 
-body {
-  min-height: 100vh;
+body {  
   background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)),
-    url(../img/background.JPG);
-  position: relative;
+    url(../img/background.JPG);  
   background-position: center;
   background-size: 440px;
 }
 
 .form-container {
   background-color: #303030;
-  margin: 50px auto;
+  margin: auto;
   width: 600px;
+  height: 470px;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 10px 10px 20px #1a1a1a, -10px -10px 20px #474747;
-}
+  }
 
 .form-container h1 {
   text-align: center;
   color: #fff;
-  text-shadow: 2px 2px #1a1a1a;
 }
 
 form {
@@ -397,13 +395,13 @@ textarea {
 }
 
 .formBtn {
-  margin-top: 5px;
+  margin-top: 1px;
   margin-left: 45px;
   width: 450px;
   background-color: #2ecc71;
   color: #fff;
   border: none;
-  padding: 15px 5px;
+  padding: 10px 5px;
   border-radius: 10px;
   cursor: pointer;
   font-weight: bold;
@@ -412,7 +410,44 @@ textarea {
 
 .formBtn:hover {
   background-color: #1e9c53;
-  padding: 17px 7px;
+  padding: 12px 7px;
+}
+
+h4{
+  color: #eee;  
+  text-align: center;
+}
+
+.footer{
+  text-align: center;
+  color: #eee;
+}
+
+.foot a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: #eee;
+  cursor: pointer;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 35px;
+}
+
+.foot a:hover {
+  transform: scale(1.1);
+  background: #2ecc71;
+  transition: 0.4s;
+}
+
+.copyright{
+color: #eee;
+text-align: center;
+margin-top: 10px;
 }
 
 @media screen and (max-width: 930px) {
