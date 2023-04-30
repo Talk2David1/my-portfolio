@@ -40,7 +40,7 @@
               <li><a href="#about">About</a></li>
               <li><a href="#skill">Skills</a></li>
               <li><a href="#works">Works</a></li>
-              <li class="btn"><a href="#">Contact Me</a></li>
+              <li class="btn"><a href="#contact">Contact Me</a></li>
             </ul>
           </nav>
         </header>
@@ -140,6 +140,7 @@
     <!-- my projects section -->
 
     <section id="works">
+      <h1>My Latest Projects</h1>
       <div class="my-works">
         <div class="work-card">
           <img src="img/travel.jpg" alt="Travel-Journal" />
@@ -175,12 +176,31 @@
           <p>Html, Css, JavaScript</p>
           <button>Github</button> <button>Live Demo</button>
         </div>
-
-      </div>
-
-    
-       
+      </div>       
     </section>
+
+    <!-- contact me section -->
+
+    <section id="contact">
+    <div class="form-container">
+      <h1>Contact Me</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+        </div>
+        <button class="formBtn" type="submit">Submit</button>
+      </form>
+    </section>
+
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
