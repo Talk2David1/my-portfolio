@@ -273,22 +273,23 @@ span {
 }
 
 /* my works section */
-#works h1 {
-  color: #eee;
-  text-align: center;
-  margin-top: 60px;
-}
-.my-works {
+#works{
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.5)),
     url(../img/background.JPG);
   position: relative;
   background-position: center;
   color: #eee;
+  background-size: 440px;
+}
+
+#works h1 {
+  text-align: center;
+}
+.my-works {
   justify-content: center;
   display: flex;
   padding: 40px;
-  background-size: 440px;
 }
 
 .my-works h4 {
@@ -380,7 +381,6 @@ input,
 textarea {
   width: 450px;
   margin-left: 40px;
-
   background: linear-gradient(rgba(90, 78, 78, 0.493), rgba(0, 0, 0, 0.5)),
     url(../img/background.JPG);
   border: none;
