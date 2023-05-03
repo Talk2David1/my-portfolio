@@ -488,7 +488,7 @@ margin-top: 10px;
     bottom: 0;
     width: 40%;
     height: 50%;
-    background: rgba(0, 0, 0, 0.411);
+    background: black;
     z-index: 2;
     padding: 6% 9%;
     transition: 0.3s right;
@@ -519,4 +519,53 @@ margin-top: 10px;
   nav .nav-list.open {
     right: 0;
   }
+
+  .container .hero-text p{
+    font-size: 15px;
+  }
+  
+  .about-me{
+    flex-direction: column;    
+  }
+
+.card{
+  width: 400px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.card h2{
+  margin-bottom: 8px;
+}
+/* 
+skills section */
+
+.grid{
+  width: 440px;
+}
+/* 
+my projects section */
+.my-works{
+  flex-direction: column;
+}
+
+.work-card{
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+/* 
+contact me section */
+
+.form-container{
+  width: 450px;
+}
+
+input, textarea{
+  width: 360px;
+}
+
+.formBtn{
+  width: 350px;
+}
+
 }
