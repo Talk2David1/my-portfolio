@@ -454,10 +454,14 @@ margin-top: 10px;
 }
 
 @media screen and (max-width: 930px) {
-
- 
+/* 
+ landing page */
   .logo i{
     margin-top: 10px;
+  }
+
+  .hero{
+    padding-left: 15px;
   }
 
   .container{
@@ -535,9 +539,11 @@ margin-top: 10px;
   }
 
   .container .hero-text p{
-    font-size: 12px;
+    font-size: 13px;
   }
   
+  /* about section */
+
   .about-me{
     flex-direction: column;    
   }
