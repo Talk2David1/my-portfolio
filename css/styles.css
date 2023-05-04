@@ -484,7 +484,7 @@ margin-top: 10px;
   nav .nav-list {
     position: absolute;
     top: 70px;
-    right: -65%;
+    right: -40%;
     bottom: 0;
     width: 40%;
     height: 50%;
@@ -529,19 +529,20 @@ margin-top: 10px;
   }
 
 .card{
-  width: 400px;
+  width: 350px;
+height: 530px;
   padding: 10px;
   font-size: 15px;
 }
 
 .card h2{
-  margin-bottom: 8px;
+  margin-bottom: -20px;
 }
 /* 
 skills section */
 
 .grid{
-  width: 440px;
+  width: 350px;
 }
 /* 
 my projects section */
@@ -550,22 +551,21 @@ my projects section */
 }
 
 .work-card{
-  margin-left: 70px;
   margin-bottom: 20px;
 }
 /* 
 contact me section */
 
 .form-container{
-  width: 450px;
+  width: 350px;
 }
 
 input, textarea{
-  width: 360px;
+  width: 250px;
 }
 
 .formBtn{
-  width: 350px;
+  width: 250px;
 }
 
 }
