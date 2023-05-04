@@ -454,6 +454,20 @@ margin-top: 10px;
 }
 
 @media screen and (max-width: 930px) {
+
+ 
+  .logo i{
+    margin-top: 10px;
+  }
+
+  .container{
+    margin-top: 50px;
+  }
+
+  .container img{
+   display: none;
+  }
+
   nav .ham {
     display: initial;
   }
@@ -521,7 +535,7 @@ margin-top: 10px;
   }
 
   .container .hero-text p{
-    font-size: 15px;
+    font-size: 12px;
   }
   
   .about-me{
